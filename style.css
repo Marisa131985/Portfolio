@@ -114,7 +114,7 @@ nav.sticky .menu-btn{
 .home{
   height: 100vh;
   width: 100%;
-  background: url("foto24.png") no-repeat;
+  background: url("Images/foto24.png") no-repeat;
   background-size: 100%;
   background-position: center;
   background-attachment: fixed;
@@ -306,18 +306,16 @@ section .button button:hover{
   display: none;
 }
 
-
-#river {
-  margin-bottom: 20px;
-  color: darkblue;
-}
-
 #video1 {
   margin-bottom: 50px;
   margin-top: -10px;
   
 }
 
+#river {
+  margin-bottom: 20px;
+  color: darkblue;
+}
 
 nav{
   position: fixed;
@@ -382,10 +380,11 @@ nav.sticky .media-icons a{
 #river {
   color: darkblue;
   margin-bottom: 20px;
+  text-align: center;
 }
 
-#video1{
-  margin-bottom: 40px;
+#myVideo{
+  margin-top: 40px;
 }
 
 
