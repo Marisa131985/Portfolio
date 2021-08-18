@@ -114,7 +114,7 @@ nav.sticky .menu-btn{
 .home{
   height: 100vh;
   width: 100%;
-  background: url("foto24.png") no-repeat;
+  background: url("Images/foto24.png") no-repeat;
   background-size: 100%;
   background-position: center;
   background-attachment: fixed;
@@ -443,7 +443,6 @@ nav.sticky .media-icons a{
   nav .navbar .menu a{
     font-size: 23px;
     display: block;
- 
     margin: 10px 0;
   }
   nav.sticky .menu a:hover{
@@ -479,4 +478,8 @@ nav.sticky .media-icons a{
   }
   .home .text-four{
     font-size: 11px;
+  }
+
+  nav .navbar .menu{
+    background: white;
   }
