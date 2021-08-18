@@ -54,11 +54,13 @@ nav.sticky .navbar .logo a{
 }
 nav .navbar .menu{
   display: flex;
-  position: relative;
+  position: fixed;
+  
 }
 nav .navbar .menu li{
   list-style: none;
   margin: 0 8px;
+  
 }
 .navbar .menu a{
   font-size: 18px;
@@ -66,6 +68,7 @@ nav .navbar .menu li{
   color: #0E2431;
   padding: 6px 0;
   transition: all 0.4s ease;
+
 }
 .navbar .menu a:hover{
   color: hsl(228, 24%, 96%);
@@ -111,7 +114,7 @@ nav.sticky .menu-btn{
 .home{
   height: 100vh;
   width: 100%;
-  background: url("foto24.png") no-repeat;
+  background: url("Images/foto24.png") no-repeat;
   background-size: 100%;
   background-position: center;
   background-attachment: fixed;
@@ -168,12 +171,40 @@ nav.sticky .menu-btn{
 a{
   color: #ffffff
 }
+.aboutexp {
+  background: none;
+}
+.about {
+  background: none;
+}
+
+/* Footer CSS */
+footer{
+  background: #656668;
+  padding: 15px 0;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+footer .text span{
+  font-size: 17px;
+  font-weight: 400;
+  color: #fff;
+}
+footer .text span a{
+  font-weight: 500;
+  color: #FFF;
+}
+footer .text span a:hover{
+  text-decoration: underline;
+}
 
 /* About Section Styling */
-/* Those Elements Where We Have Apply Same CSS,
- I'm Selecting Directly 'Section Tag' and 'Class'  */
-section{
+ section{
   padding-top: 40px;
+  background: url("Images/foto24.png") no-repeat;
+  background-size: 100%;
+  background-position: center;
+  background-attachment: fixed;
 }
 section .content{
   width: 80%;
@@ -181,7 +212,7 @@ section .content{
   font-family: 'Poppins', sans-serif;
 }
 .about .about-details{
-  display: inline-block;
+  display: flex-direction; column;
   justify-content: space-between;
   align-items: center;
 }
@@ -203,7 +234,7 @@ section .title span::after{
   position: absolute;
   height: 3px;
   width: 100%;
-  background: #656668;
+  background: #4070f4;
   left: 0;
   bottom: 0;
 }
@@ -244,42 +275,23 @@ section .button button{
   border-radius: 4px;
   font-size: 25px;
   font-weight: 400;
-  background: #656668;
+  background: #4070f4;
   color: #fff;
   border: 2px solid transparent;
   cursor: pointer;
   transition: all 0.4s ease;
 }
 section .button button:hover{
-  border-color: #656668;
+  border-color: #4070f4;
   background-color: #fff;
-  color: #656668;
+  color: #4070f4;
 }
 
- img {
-  margin: 0 0 35px 0;
-}
 
- 
-/* Footer CSS */
-footer{
-  background: #656668;
-  padding: 15px 0;
-  text-align: center;
-  font-family: 'Poppins', sans-serif;
-}
-footer .text span{
-  font-size: 17px;
-  font-weight: 400;
-  color: #fff;
-}
-footer .text span a{
-  font-weight: 500;
-  color: #FFF;
-}
-footer .text span a:hover{
-  text-decoration: underline;
-}
+
+
+
+
 /* Scroll TO Top Button CSS */
 .scroll-button a{
   position: fixed;
@@ -293,6 +305,89 @@ footer .text span a:hover{
   box-shadow: rgba(0, 0, 0, 0.15);
   display: none;
 }
+
+#video1 {
+  margin-bottom: 50px;
+  margin-top: -10px;
+  
+}
+
+#river {
+  margin-bottom: 20px;
+  color: darkblue;
+}
+
+nav{
+  position: fixed;
+  width: 100%;
+  padding: 20px 0;
+  z-index: 998;
+  transition: all 0.3s ease;
+  font-family: 'Ubuntu', sans-serif;
+}
+nav.sticky{
+  background: #656668;
+  padding: 13px 0;
+}
+nav .navbar{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+nav .navbar .logo a{
+  font-weight: 500;
+  font-size: 35px;
+  color: #4070f4;
+}
+nav.sticky .navbar .logo a{
+  color: #fff;
+}
+nav .navbar .menu{
+  display: flex;
+  position: relative;
+}
+nav .navbar .menu li{
+  list-style: none;
+  margin: 0 8px;
+}
+.navbar .menu a{
+  font-size: 18px;
+  font-weight: 500;
+  color: #0E2431;
+  padding: 6px 0;
+  transition: all 0.4s ease;
+}
+.navbar .menu a:hover{
+  color: hsl(223, 13%, 43%);
+}
+nav.sticky .menu a{
+  color: #FFF;
+}
+nav.sticky .menu a:hover{
+  color: #0E2431;
+}
+.navbar .media-icons a{
+  color: hsl(223, 13%, 43%);
+  font-size: 18px;
+  margin: 0 6px;
+}
+nav.sticky .media-icons a{
+  color: #FFF;
+}
+
+#river {
+  color: darkblue;
+  margin-bottom: 20px;
+}
+
+#video1{
+  margin-bottom: 40px;
+}
+
+
+
 
 /* Responsive Media Query */
 @media (max-width: 1190px) {
