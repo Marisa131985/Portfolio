@@ -376,18 +376,16 @@ nav.sticky .menu a:hover{
 nav.sticky .media-icons a{
   color: #FFF;
 }
-
 #river {
-  color: darkblue;
   margin-bottom: 20px;
+  color: darkblue;
   text-align: center;
 }
-
-#myVideo{
-  margin-top: 40px;
+#video1 {
+  margin-bottom: 50px;
+  margin-top: -10px;
+  
 }
-
-
 
 
 /* Responsive Media Query */
