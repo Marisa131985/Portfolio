@@ -114,7 +114,7 @@ nav.sticky .menu-btn{
 .home{
   height: 100vh;
   width: 100%;
-  background: url("foto24.png") no-repeat;
+  background: url("background1.png") no-repeat;
   background-size: 100%;
   background-position: center;
   background-attachment: fixed;
@@ -201,7 +201,7 @@ footer .text span a:hover{
 /* About Section Styling */
  section{
   padding-top: 40px;
-  background: url("Images/foto24.png") no-repeat;
+  background: url("Images/foto_z.png") no-repeat;
   background-size: 100%;
   background-position: center;
   background-attachment: fixed;
