@@ -398,6 +398,12 @@ nav.sticky .media-icons a{
   
 }
 
+tech  { 
+  width: 20px;
+  height: 20px;
+}
+
+
 
 /* Responsive Media Query */
 @media (max-width: 1190px) {
