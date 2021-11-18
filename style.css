@@ -49,7 +49,7 @@ nav .navbar .logo a{
   font-size: 35px;
   color: white;
 }
-nav.sticky .navbar .logo a{
+nav.sticky .navbar .logo .media-icons a{
   color: #fff;
 }
 nav .navbar .menu{
