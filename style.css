@@ -47,7 +47,7 @@ nav .navbar{
 nav .navbar .logo a{
   font-weight: 500;
   font-size: 35px;
-  color: #656668;
+  color: white;
 }
 nav.sticky .navbar .logo a{
   color: #fff;
@@ -65,19 +65,19 @@ nav .navbar .menu li{
 .navbar .menu a{
   font-size: 18px;
   font-weight: 500;
-  color: #0E2431;
+  color: white;
   padding: 6px 0;
   transition: all 0.4s ease;
 
 }
 .navbar .menu a:hover{
-  color: hsl(228, 24%, 96%);
+  color: green;
 }
 nav.sticky .menu a{
   color: #FFF;
 }
 nav.sticky .menu a:hover{
-  color: #0E2431;
+  color: white;
 }
 .navbar .media-icons a{
   color: #FFF;
@@ -101,10 +101,10 @@ nav .menu-btn,
   display: none;
 }
 nav .menu-btn{
-  color: #656668;
+  color: black;
 }
 nav.sticky .menu-btn{
-  color: #FFF;
+  color: black;
 }
 .navbar .menu .menu-btn{
   color: #fff;
@@ -127,7 +127,7 @@ nav.sticky .menu-btn{
 .home{
   height: 100vh;
   width: 100%;
-  background: url("background1.png") no-repeat;
+  background: url("Images/background1.png") no-repeat;
   background-size: 100%;
   background-position: center;
   background-attachment: fixed;
@@ -374,13 +374,13 @@ nav .navbar .menu li{
   color: hsl(223, 13%, 43%);
 }
 nav.sticky .menu a{
-  color: #FFF;
+  color: white;
 }
 nav.sticky .menu a:hover{
   color: #0E2431;
 }
 .navbar .media-icons a{
-  color: hsl(223, 13%, 43%);
+  color: white;
   font-size: 18px;
   margin: 0 6px;
 }
@@ -397,12 +397,6 @@ nav.sticky .media-icons a{
   margin-top: -10px;
   
 }
-
-tech  { 
-  width: 3px;
-  height: 3px;
-}
-
 
 
 /* Responsive Media Query */
@@ -463,7 +457,7 @@ tech  {
     margin: 10px 0;
   }
   nav.sticky .menu a:hover{
-    color: #4070f4;
+    color: black;
   }
   nav .navbar .media-icons{
     display: none;
@@ -498,5 +492,5 @@ tech  {
   }
 
   nav .navbar .menu{
-    background: white;
+    background: gray;
   }
