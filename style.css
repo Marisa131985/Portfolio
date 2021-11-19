@@ -50,7 +50,7 @@ nav .navbar .logo a{
   color: white;
 }
 nav.sticky .navbar .logo .media-icons a{
-  color: #fff;
+  color: black;
 }
 nav .navbar .menu{
   display: flex;
@@ -80,12 +80,12 @@ nav.sticky .menu a:hover{
   color: white;
 }
 .navbar .media-icons a{
-  color: #FFF;
+  color: black;
   font-size: 18px;
   margin: 0 6px;
 }
 nav.sticky .media-icons a{
-  color: #FFF;
+  color: black;
 }
 
 /* Side Navigation Menu Button CSS */
@@ -380,12 +380,12 @@ nav.sticky .menu a:hover{
   color: #0E2431;
 }
 .navbar .media-icons a{
-  color: white;
+  color: black;
   font-size: 18px;
   margin: 0 6px;
 }
 nav.sticky .media-icons a{
-  color: #FFF;
+  color: white;
 }
 #river {
   margin-bottom: 20px;
@@ -460,7 +460,8 @@ nav.sticky .media-icons a{
     color: black;
   }
   nav .navbar .media-icons{
-    display: none;
+    display: inline;
+    
   }
   nav .menu-btn,
   .navbar .menu .cancel-btn{
@@ -477,6 +478,10 @@ nav.sticky .media-icons a{
   }
   .contact .text{
     width: 100%;
+  
+}
+nav .navbar .menu{
+  background: gray;
 }
 }
 
@@ -494,3 +499,7 @@ nav.sticky .media-icons a{
   nav .navbar .menu{
     background: gray;
   }
+  nav .navbar .media-icons{
+    display: inline-block;
+  }
+}
