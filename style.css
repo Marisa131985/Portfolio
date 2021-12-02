@@ -486,11 +486,12 @@ nav .navbar .menu{
 }
 
 @media (max-width: 500px){
+ 
   .home .text-two{
-    font-size: 40px;
+    font-size: 25px;
   }
   .home .text-three{
-    font-size: 14px;
+    font-size: 9px;
   }
   .home .text-four{
     font-size: 11px;
